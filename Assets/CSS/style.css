@@ -10,7 +10,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "calibri";
 }
 
 .bg {
@@ -37,7 +37,7 @@ html {
 .header,
 a.logo {
     margin-left: 80px;
-    font-size: 70px;
+    font-size: 90px;
     color: rgb(213, 191, 24);
     text-decoration: none;
 }
@@ -50,10 +50,10 @@ a:hover {
 .header-right,
 a {
     display: inline;
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 input.search {
@@ -109,6 +109,7 @@ img.first {
     top: 250px;
     left: 10%;
     color: #fff;
+
 }
 
 span {
@@ -127,31 +128,174 @@ img.last {
     width: 60vw;
     /* height: 80vh; */
     border-radius: 250px 0 0 250px;
-    opacity: 0.3;
+    opacity: 0.4;
     position: absolute;
     top: 200px;
     right: 0px;
 }
-.cont{
+
+.cont {
     position: relative;
     text-align: center;
-    margin-right: 350px;
-    bottom: 90px;
+    margin-right: 380px;
+    bottom: 60px;
 }
+
 .button {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 2px solid white;
-    background-color: rgb(140 87 121);
+    background-color: rgb(123, 65, 102);
     font-size: 20px;
     color: #efd657;
     font-family: 'Lucida Calligraphy';
     font-weight: 800;
     position: absolute;
+
+}
+
+.v1 {
+    border-left: 3px solid rgb(101, 103, 110);
+    height: 78px;
+    /* margin: 20px; */
+    color: rgb(166, 162, 162);
+    line-height: 25px;
+    /* position: relative;
+    left: 162px; */
+    /* top: 15px; */
+    margin: 20px 180px;
     
 }
 
+.inline {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 170px;
+    margin-top: 35px;
+    color: rgb(166, 162, 162);
+}
+
+.inline,
+span {
+    font-size: 20px;
+    color: rgb(240, 219, 156);
+}
+
+p.Quote{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+    font-family: "Bradley Hand ITC";
+    color: rgb(240, 219, 156);
+    font-weight: bolder;
+
+}
+
+#Sub-Container{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 29px 0 50px 0;
+    font-family:'calibri';
+}
+
+#cardone{
+    width: 270px;
+    height: 290px;
+    border: 1px solid rgb(239, 231, 231);
+    border-radius: 66px;
+    box-shadow: 0 4px 8px 0 #f6ebeb
+}
+
+#cardone img{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#cardone,h1{
+    color: white;
+    text-align: center;
+}
+#cardtwo{
+    width: 270px;
+    height: 290px;
+    border: 1px solid rgb(239, 231, 231);
+    border-radius: 66px;
+    box-shadow: 0 4px 8px 0 #f6ebeb
+}
+#cardtwo img{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+#cardthree{
+    width: 270px;
+    height: 290px;
+    border: 1px solid rgb(239, 231, 231);
+    border-radius: 66px;
+    box-shadow: 0 4px 8px 0 #f6ebeb
+}
+#cardthree img{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#Footer{
+    width: 100%;
+    height: 60%;
+    border: 1px solid rgb(84, 9, 65);
+    border-radius: 100px 100px 0 0 ;
+    background-color: #210e1f;
+    opacity: 0.8;
+    margin-top: 90px;
+}
+#Footer h1{
+    color: rgb(230, 224, 114);
+    font-size: 70px;
+    margin-top: 50px;
+    font-family: 'Matura MT Script Capitals';
+}
+.Foot{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    font-family:'calibri';
+    margin-top: 30px;
+}
+.reviewone{
+    height: 200px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #5a3757;
+}
+.reviewone p{
+    color: antiquewhite;
+    margin-left: 35px;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.reviewtwo{
+    height: 200px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #573154;
+}
+.reviewtwo p{
+    color: antiquewhite;
+    margin-left: 35px;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.checked {
+    color: rgb(222, 222, 56);
+    margin-top: 30px;
+    margin-left: 5px;
+    position: relative;
+    left: 30px;
+  }
 /* @media screen and (max-width: 900px) {
     .header a {
       float: none;
