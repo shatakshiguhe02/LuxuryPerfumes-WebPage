@@ -27,29 +27,26 @@ html {
 
 .header {
     overflow: hidden;
-    /* padding: 20px 10px; */
-    background-color: #873a77;
-    width: 90vw;
-    /* opacity: 0.7; */
+    background-color: #815178;
+    width: 100%;
+    height: 14vh;
     position: fixed;
-    /* padding: 10px 20px; */
 }
 
 .logo {
     font-family: 'Forte';
 }
 
-.header,
 a.logo {
-    margin-left: 60px;
-    font-size: 90px;
-    color: rgb(213, 191, 24);
+    margin-left: 100px;
+    font-size: 70px;
+    color: rgb(239, 221, 82);
     text-decoration: none;
+    cursor: pointer;
 }
 
-.header
-a:hover {
-    color: rgb(191, 43, 181);
+.header a:hover {
+    color: rgb(36, 17, 35);
 }
 
 .header-right,
@@ -66,11 +63,13 @@ input.search {
     /* border: 1px solid #e9e6e6; */
     display: inline-block;
     border-radius: 25px;
-    padding: 12px 4px 12px 40px;
+    padding: 14px 6px 10px 45px;
     background: url("../images/search.svg") no-repeat 13px;
     background-color: aliceblue;
-    margin-left: 120px;
-    background-color: rgb(226, 188, 219);
+    margin-left: 260px;
+    background-color: rgb(241, 229, 239);
+    border: none;
+    cursor: pointer;
 }
 
 input.search::placeholder {
@@ -85,14 +84,15 @@ input.search:hover {
 }
 
 button#cart {
-    background-color: #edbfe9;
+    background-color: #e7d9e6;
     border-radius: 19px;
-    display: inline-block;
-    padding: 8px 19px 8px 15px;
+    padding: 8px 20px 8px 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(133, 29, 144);
+    color: rgb(35, 4, 39);
     font-size: 15px;
     border: none;
+    margin-left: 30px;
+    cursor: pointer;
 }
 
 button#cart:hover {
@@ -106,9 +106,9 @@ img.first {
     /* border-radius: 29px; */
     border-radius: 0 150px 150px 0;
     opacity: 0.3;
-    margin-top: 50px;
+    margin-top: 110px;
     position: relative;
-    top: 0;
+    /* top: 0; */
     left: 0;
 }
 
@@ -144,7 +144,7 @@ img.last {
 .cont {
     position: relative;
     text-align: center;
-    margin-right: 380px;
+    margin-right: 390px;
     bottom: 60px;
 }
 
@@ -157,22 +157,17 @@ img.last {
     font-size: 20px;
     color: #efd657;
     font-family: 'Lucida Calligraphy';
-    font-weight: 800;
+    font-weight: 900;
     position: absolute;
-
+    cursor: pointer;
 }
 
 .v1 {
     border-left: 3px solid rgb(101, 103, 110);
     height: 78px;
-    /* margin: 20px; */
     color: rgb(166, 162, 162);
     line-height: 25px;
-    /* position: relative;
-    left: 162px; */
-    /* top: 15px; */
     margin: 20px 180px;
-    
 }
 
 .inline {
@@ -189,26 +184,25 @@ span {
     color: rgb(240, 219, 156);
 }
 
-p.Quote{
+p.Quote {
     color: white;
     text-align: center;
     font-size: 60px;
-    padding: 40px;
+    padding: 70px;
     font-family: "Bradley Hand ITC";
     color: rgb(240, 219, 156);
     font-weight: bolder;
-
 }
 
-#Sub-Container{
+#Sub-Container {
     display: flex;
     justify-content: center;
     gap: 70px;
-    padding: 29px 0 50px 0;
-    font-family:'calibri';
+    padding: 30px 0 50px 0;
+    font-family: 'calibri';
 }
 
-#cardone{
+#cardone {
     width: 270px;
     height: 290px;
     border: 1px solid rgb(239, 231, 231);
@@ -216,93 +210,107 @@ p.Quote{
     box-shadow: 0 4px 8px 0 #f6ebeb
 }
 
-#cardone img{
+#cardone img {
     margin-top: 30px;
     margin-left: 10px;
 }
-#cardone,h1{
+
+#cardone,
+h1 {
     color: white;
     text-align: center;
 }
-#cardtwo{
+
+#cardtwo {
     width: 270px;
     height: 290px;
     border: 1px solid rgb(239, 231, 231);
     border-radius: 66px;
     box-shadow: 0 4px 8px 0 #f6ebeb
 }
-#cardtwo img{
+
+#cardtwo img {
     margin-top: 25px;
     margin-left: 40px;
 }
-#cardthree{
+
+#cardthree {
     width: 270px;
     height: 290px;
     border: 1px solid rgb(239, 231, 231);
     border-radius: 66px;
     box-shadow: 0 4px 8px 0 #f6ebeb
 }
-#cardthree img{
+
+#cardthree img {
     margin-top: 20px;
     margin-left: 40px;
 }
 
-#Footer{
+#Footer {
     width: 100%;
     height: 60%;
     border: 1px solid rgb(84, 9, 65);
-    border-radius: 100px 100px 0 0 ;
+    border-radius: 100px 100px 0 0;
     background-color: #240320;
     opacity: 0.8;
     margin-top: 90px;
 }
-#Footer h1{
+
+#Footer h1 {
     color: rgb(230, 224, 114);
     font-size: 70px;
     margin-top: 50px;
     font-family: 'Matura MT Script Capitals';
 }
-.Foot{
+
+.Foot {
     display: flex;
     flex-direction: row;
     gap: 70px;
     justify-content: center;
-    font-family:'calibri';
+    font-family: 'calibri';
     margin-top: 30px;
 }
-.reviewone{
+
+.reviewone {
     height: 200px;
     width: 500px;
     border: 1px solid white;
     border-radius: 30px;
     background-color: #5a3757;
 }
-.reviewone p{
+
+.reviewone p {
     color: antiquewhite;
     margin-left: 35px;
     font-size: 23px;
     margin-top: 20px;
 }
-.reviewtwo{
+
+.reviewtwo {
     height: 200px;
     width: 500px;
     border: 1px solid white;
     border-radius: 30px;
     background-color: #573154;
 }
-.reviewtwo p{
+
+.reviewtwo p {
     color: antiquewhite;
     margin-left: 35px;
     font-size: 23px;
     margin-top: 20px;
 }
+
 .checked {
     color: rgb(222, 222, 56);
     margin-top: 30px;
     margin-left: 5px;
     position: relative;
     left: 30px;
-  }
+}
+
 /* @media screen and (max-width: 900px) {
     .header a {
       float: none;
