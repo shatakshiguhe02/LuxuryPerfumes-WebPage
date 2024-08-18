@@ -27,7 +27,12 @@ html {
 
 .header {
     overflow: hidden;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
+    background-color: #873a77;
+    width: 90vw;
+    /* opacity: 0.7; */
+    position: fixed;
+    /* padding: 10px 20px; */
 }
 
 .logo {
@@ -36,13 +41,13 @@ html {
 
 .header,
 a.logo {
-    margin-left: 80px;
+    margin-left: 60px;
     font-size: 90px;
     color: rgb(213, 191, 24);
     text-decoration: none;
 }
 
-.header,
+.header
 a:hover {
     color: rgb(191, 43, 181);
 }
@@ -109,10 +114,9 @@ img.first {
 
 .centered {
     position: absolute;
-    top: 250px;
+    top: 150px;
     left: 10%;
     color: #fff;
-
 }
 
 span {
